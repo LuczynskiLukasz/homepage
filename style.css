@@ -4,11 +4,32 @@ h1 {
 
 h2 {
     color: #690aa4;
-    background: red;
+    
 
 }
 
 section {
 	color:rgb(25, 4, 88);
     background: rgb(10, 182, 10);
+}
+
+
+
+#szkolenie{background-color: aqua;}
+
+p {
+    color:orange;
+}
+
+a{
+    color:blueviolet;
+}
+
+section a{
+    background-color: darkgreen;
+}
+
+.my-article p{
+    background-color: black;
+color:azure;
 }
