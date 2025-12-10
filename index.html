@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-<head>
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja pierwsza strona uczymy się od podstaw </title>
@@ -9,51 +9,53 @@
     <link href="normalize.css" rel="stylesheet" type="text/css">
 
 
-
-<div class="box"> Dień dobry.
- <div class="sticky"> Stronki www</div>
-  <div class="float"> Najważniejsze informacje </div>
-<a href="http://127.0.0.1:5500/index.html">Wejdź i sprawdź</a> Łukasz</div>
+   <nav class="navigation" id="top">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        </nav>
+<div class="box"> Dzień dobry.</div>
 <div class="box">Zdjęcia</div>
+
 <div class="box">Linki</div>
 <div class="box">Dane</div>
+
 <div class="box">Coś tam</div>
-<div class="box-2"> co ten
+<div class="box-2"> co ten </div>
+ <div class="float"> Najważniejsze informacje </div>
 
-  
+   <div class="sticky"> Stronki www</div>
+ 
    
-<div class="absolute"> jestem Łukasz</div>
+<div class="absolute"> Mam na imię Łukasz</div>
   
-  <div class="absolute-2"> jestem Łukasz</div>
-  <div class="fixed"> Latający znaczek</div> 
-  </div>
-  <div class="box-3">Tak </div>
+  <div class="absolute-2"> jestem Łuki</div>
+  <div class="fixed"> <img src="avatar.png" alt="znaczek" /></div> 
+  
+  <div class="box-3"> Mój profil </div>
 
-
+<a href="http://127.0.0.1:5500/index.html" target="_blank"> Wejdź i sprawdź!!!</a> 
 
 </head>
 
 
 <body>
-    <header>
+    
+   
 
-        <nav class="navigation">
-            <a class="navigation__link" href="index.html">Strona główna</a>
-            <a class="navigation__link" href="nauka-html.html">Nauka html</a>
-        </nav>
-    </header>
+    
 
-    <main>
-
-        <header id="top">
+        <header >
             <h1><u>Będzie ok i musi być.</u></h1>
             <img src="LukaszLuczynski.jpg" alt="Zdjecie Łukasza Łuczyńskiego" />
         </header>
+
+        <main>
+            
         <section class="section">
             <h2 class="section__header section__header--special">To jest moja strona testowa.</h2>
             <p>poczytaj wiecej na ten temat w osobnym artykule <a href="#szkolenie">na dole strony</a>
             </p>
-            <p>Testujemy <br>opcje i warianty <strong>tworzenia stron www</strong></p>
+            <p>Testujemy <br>opcje i warianty <br> <strong>tworzenia stron www</strong></p>
         </section>
 
         <section class="section">   
@@ -77,8 +79,62 @@
                 <p>Jeśli będą chcieli to będę robił jak najwięcej</p>
 
             </article>
-        </section>
 
+        <article class="my-article">
+            <h3 class="my-article__header">moje ulubione znaczniki</h3>
+            <ul>
+                <li>h1</li>
+                <ol>
+                   <li>wielkość nagłówka</li> 
+                   <li>najwieksza to h1</li>
+                </ol>
+                <li>h2</li>
+                <li>a</li>
+            </ul>
+
+         <article class="my-article">
+            <h3 class="my-article__header">Lekcje WTF</h3>
+            <table>
+                <caption>Rozpiska WTF</caption>
+           <thead>
+            <tr>
+                <th>Numer lekcji</th>
+                <th>Tytuł</th>
+                <th>Status</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>1</td>
+                <td>Hello World</td>
+                <td>?</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Narzędzia</td>
+                <td>?</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Prace domowe</td>
+                <td>?</td>
+            </tr>
+           </tbody>
+            </table>
+
+        </article>
+        </section>
+ <section class="form">
+<form>
+    <p>
+        <label for="FirstName">Imię</label>
+        <input id="FirstName" name="FirstName"/>
+    </p>
+</form>
+
+ </section>
 
     </main>
     <footer>Tak będzie działać stronka ...<a href="#top"> Do góry </a> 
